@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_ngcs_lcost_al_process">
+  <description>Process Landed Cost allocation.</description>
+  <isinactive>F</isinactive>
+  <name>Nuage Landed Cost Process</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/com.nuagecg.landedcostallocation/components/nuage-landedcost-allocation-process.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_ngcs_lcost_al_process">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>Nuage Landed Cost Process</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

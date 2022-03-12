@@ -1,0 +1,5 @@
+<subtab scriptid="custtab_ngcs_lcost_al">
+  <parent></parent>
+  <tabtype>TRANSACTION</tabtype>
+  <title>Landed Cost</title>
+</subtab>

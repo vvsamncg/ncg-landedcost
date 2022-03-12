@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_ngcs_lcost_al_method">
+  <description>Allocation Methodology</description>
+  <isinactive>F</isinactive>
+  <ismatrixoption>F</ismatrixoption>
+  <isordered>T</isordered>
+  <name>Nuage Cost Allocation Method</name>
+  <customvalues>
+    <customvalue scriptid="val_416910_t2464701_439">
+      <abbreviation>W</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Weight</value>
+    </customvalue>
+    <customvalue scriptid="val_416911_t2464701_421">
+      <abbreviation>Q</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Quantity</value>
+    </customvalue>
+    <customvalue scriptid="val_416912_t2464701_182">
+      <abbreviation>V</abbreviation>
+      <isinactive>F</isinactive>
+      <value>Value</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,19 @@
+<centercategory scriptid="custcentercategory_ngcs_lcost_al">
+  <center>BASIC</center>
+  <centertab>BASICCENTERSETUP</centertab>
+  <label>NCG Landed Cost</label>
+  <links>
+    <link>
+      <linklabel>Settings</linklabel>
+      <linkobject>[scriptid=customrecord_ngcs_lcost_al_setting]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+    <link>
+      <linklabel>Landed Cost Transaction</linklabel>
+      <linkobject>[scriptid=customtransaction_ngcs_landedcost_tran]</linkobject>
+      <linktasktype>LIST</linktasktype>
+      <shortlist>F</shortlist>
+    </link>
+  </links>
+</centercategory>

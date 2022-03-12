@@ -1,0 +1,34 @@
+<customtransactiontype scriptid="customtransaction_ngcs_landedcost_tran">
+  <cancloseorder>F</cancloseorder>
+  <isposting>T</isposting>
+  <isvoidable>F</isvoidable>
+  <name>Nuage Landed Cost Transaction</name>
+  <showstatus>T</showstatus>
+  <transactionstyle>JOURNAL</transactionstyle>
+  <segments>
+    <classposition>LINES</classposition>
+    <departmentposition>LINES</departmentposition>
+    <isclassmandatory>F</isclassmandatory>
+    <isdepartmentmandatory>F</isdepartmentmandatory>
+    <islocationmandatory>F</islocationmandatory>
+    <locationposition>LINES</locationposition>
+  </segments>
+  <statuses>
+    <status scriptid="status_10032_t2464701_588">
+      <description>Pending Approval</description>
+      <id>A</id>
+      <isposting>F</isposting>
+    </status>
+    <status scriptid="status_10033_t2464701_970">
+      <description>Approved</description>
+      <id>B</id>
+      <isposting>T</isposting>
+    </status>
+  </statuses>
+  <permissions>
+    <permission>
+      <permittedlevel>FULL</permittedlevel>
+      <permittedrole>ADMINISTRATOR</permittedrole>
+    </permission>
+  </permissions>
+</customtransactiontype>
